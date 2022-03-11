@@ -8,7 +8,7 @@ var map = L.map('map', {
   ]
 });
 
-var geojsonData = "ev_stations_v1.geojson";
+var geojsonData = "Electric_Vehicle_Population_Data.geojson";
 
 var geojsonLayer = L.geoJson(geojsonData).addTo(map);
 
