@@ -8,7 +8,7 @@ var map = L.map('map', {
   ]
 });
 
-var geojsonData = "Electric_Vehicle_Population_Data.geojson";
+var geojsonData = "https://data.wa.gov/api/views/f6w7-q2d2/rows.json?accessType=DOWNLOAD";
 
 var geojsonLayer = L.geoJson(geojsonData).addTo(map);
 
